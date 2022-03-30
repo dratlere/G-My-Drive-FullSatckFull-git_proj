@@ -109,3 +109,57 @@ for (n of names.slice(1,3)) {                   //cut from 1-3 ant print them.
 
     console.log([n]);
 }
+
+// homework
+indexOf
+----------------------------------
+let msg='Hello World';
+let char='W';
+let i;
+for(let i=0;i<msg.length;i++){
+    if (char==msg[i]){
+      console.log(i);
+      break;
+    }
+}
+----------------------------------
+includs
+----------------------------------
+let msg='Hello World';
+let x='e';
+for (let i=0;i<msg.length;i++){
+    if (x==msg[i]){
+      console.log(true);
+    }
+    }
+---------------------------------
+push
+---------------------------------
+let kids = ["ravid", "hadar", "yuval", "nadav"];
+kids[4]='latte';
+console.log(kids.length);
+---------------------------------------------------
+unshift
+---------------------------------------------------
+let kids = ["ravid", "hadar", "yuval", "nadav"];
+let ary= ['latte,']+[kids];
+console.log([ary]);
+-----------------------------------------------------
+shift
+------------------------------------------------------
+let kids = ["ravid", "hadar", "yuval", "nadav"];
+let ary=kids[0];
+console.log(ary);
+------------------------------------------------------
+let myStr='    Hello World    ';
+let newStr='';
+s=-1;
+e=myStr.length;
+while (myStr[++s]==' '){
+}
+while (myStr[--e]==' '){
+}
+for (i=s; i<=e; i++){
+    newStr+=myStr[1];
+}
+console.log(newStr);
