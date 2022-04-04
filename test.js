@@ -163,3 +163,5 @@ for (i=s; i<=e; i++){
     newStr+=myStr[1];
 }
 console.log(newStr);
+
+//testing git hub
